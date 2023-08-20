@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 7961660755817552678}
   m_Layer: 0
   m_Name: Pad (2) - Land
-  m_TagString: Untagged
+  m_TagString: Finish
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

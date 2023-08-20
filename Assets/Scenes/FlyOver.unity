@@ -309,23 +309,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1453572328 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7572691635649211233, guid: c655fa88578e2378e91ea934a4ea64b2, type: 3}
-  m_PrefabInstance: {fileID: 1895529858404627021}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1453572336
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1453572328}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5276ed2370c022f4c97fe0bc8012e6c8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &536870324089206526
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -337,10 +320,6 @@ PrefabInstance:
     - target: {fileID: 2726853952800131258, guid: 5c4c5ce1515e3da568f12be862c69b21, type: 3}
       propertyPath: m_Name
       value: Pad (1) - Launch
-      objectReference: {fileID: 0}
-    - target: {fileID: 2726853952800131258, guid: 5c4c5ce1515e3da568f12be862c69b21, type: 3}
-      propertyPath: m_TagString
-      value: Friendly
       objectReference: {fileID: 0}
     - target: {fileID: 7399064052145874272, guid: 5c4c5ce1515e3da568f12be862c69b21, type: 3}
       propertyPath: m_LocalPosition.x
@@ -395,10 +374,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 4400523385831621830, guid: c655fa88578e2378e91ea934a4ea64b2, type: 3}
-      propertyPath: m_PlayOnAwake
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 5829248453628640798, guid: c655fa88578e2378e91ea934a4ea64b2, type: 3}
       propertyPath: m_LocalPosition.x
       value: -20
@@ -446,10 +421,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 7572691635649211233, guid: c655fa88578e2378e91ea934a4ea64b2, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1453572336}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c655fa88578e2378e91ea934a4ea64b2, type: 3}
 --- !u!1001 &2404458615669971344
 PrefabInstance:
@@ -465,7 +437,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5255547565775506046, guid: ab216549dbeaff6cea0c4b4f4ae12ab8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -35.33
       objectReference: {fileID: 0}
     - target: {fileID: 5255547565775506046, guid: ab216549dbeaff6cea0c4b4f4ae12ab8, type: 3}
       propertyPath: m_LocalPosition.y
@@ -583,7 +555,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7187168639146331830, guid: ee82fcb86dfc19011967d377a3f72c6f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7187168639146331830, guid: ee82fcb86dfc19011967d377a3f72c6f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -633,10 +605,6 @@ PrefabInstance:
     - target: {fileID: 2702053030702983735, guid: da0f411597f8b901ab7233ccdf40595c, type: 3}
       propertyPath: m_Name
       value: Pad (2) - Land
-      objectReference: {fileID: 0}
-    - target: {fileID: 2702053030702983735, guid: da0f411597f8b901ab7233ccdf40595c, type: 3}
-      propertyPath: m_TagString
-      value: Finish
       objectReference: {fileID: 0}
     - target: {fileID: 3688791471018275497, guid: da0f411597f8b901ab7233ccdf40595c, type: 3}
       propertyPath: m_LocalPosition.x
